@@ -27,7 +27,7 @@ body{
     }
     
     .header-links a:hover{
-        background-color: #f3e0e0;
+        background-color: #b6b6b6;
         border-radius: 15px;
     }
     
@@ -59,6 +59,7 @@ main{
 text-align: center;
 font-size: 90px;
 height: 40px; ;
+
     }
     h3{
         color: #ffffff;
@@ -69,7 +70,7 @@ height: 40px; ;
 }
 
 .footer {
-    background-color: #ffffff; /* White background */
+    background-color: #a09f9f; /* White background */
     color: #000; /* Black text */
     text-align: center;
     padding: 20px;
