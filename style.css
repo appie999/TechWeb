@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+.header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 10px 10px ;
+    
+
+    .logo{
+        width: 150px;
+        
+    }
+    .logoo{
+       position: absolute; 
+       top: 20px;
+        left: 160px;
+    }
+    
+    .header-links a{
+        color: black;
+        padding: 4px 15px;
+        text-decoration:none
+    
+    }
+    
+    .header-links a:hover{
+        background-color: #f3e0e0;
+        border-radius: 15px;
+    }
+    
+    .header-links button{
+        background-color: black;
+        color: #ffffff;
+        border: none;
+        border-radius: 10px;
+        padding: 5px 10px;
+    }
+    
+    .header-links button:hover{
+    background-color: rgb(210, 3, 3);
+    padding: 5px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    }
+    
+
+}
+body{
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+}
+main{
+ background-color: black;
+    h1{
+        color: #ffffff;
+text-align: center;
+font-size: 90px;
+height: 40px; ;
+    }
+    h3{
+        color: #ffffff;
+        text-align: center;
+       font-size: 20px;
+    }
+
+}
+
+.footer {
+    background-color: #ffffff; /* White background */
+    color: #000; /* Black text */
+    text-align: center;
+    padding: 20px;
+    position: fixed; /* Keeps the footer at the bottom */
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for emphasis */
+}
+
+.footer .footer-content p {
+    margin: 10px 0; /* Space above and below the text */
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer .icon img {
+    width: 60px;
+    height: 60px;
+    margin: 0 10px; /* Spacing between icons */
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Smooth scaling animation */
+}
+
+.footer .icon img:hover {
+    transform: scale(1.2); /* Slightly enlarges on hover */
+}
+.footer .line {
+    margin: 20px auto; /* Center the line */
+    width: 40%; /* Line width relative to the footer */
+    height: 1px; /* Thickness of the line */
+    background-color: #000; /* Black line color */
+}
+
